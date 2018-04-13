@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Header 1`] = `
+<div
+  className="header"
+>
+  <h2>
+    Heart Rate Zones Calculators
+  </h2>
+</div>
+`;
