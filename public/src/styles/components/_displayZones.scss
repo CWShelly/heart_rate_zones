@@ -1,22 +1,32 @@
 
 .myZones{
   font-size: $medium;
-  color: $grey;
+  color: $fuschia;
   text-align: left;
+}
+
+.myZones-span{
+  font-size: $medium;
+  color: $fuschia;
+  text-align: left;
+  font-weight: bold;
+  // text-decoration: underline;
+
 }
 .myZones-bigger{
   font-size: 2.22rem;
-  color: white;
+  color: $fuschia;
   text-align: center;
   text-decoration: underline;
 
 }
 
 .displayContainer{
-  background: #c6299f;
+  border: 1px solid $fuschia;
   color: white;
   font-size: $medium;
   text-align: center;
+ 
 
 
 }
