@@ -10,18 +10,21 @@ class HeartRateApp extends React.Component{
     rate: 0,
     max: 0,
     hrr: 0,
-    lower: 0,
-    higher:0,
+    mod_lower:0,
+    vig_lower: 0,
+    vig_higher:0,
     message: ""
   }
     handleCalculateHeartRateZones  = (myAge, myRate)=>{
 
-      let my_rate = myRate;
+
       let max = 220 - myAge;
       let hrr = max - myRate;
-      let lower = Math.round((hrr * .7) + parseInt(myRate));
-      let higher =Math.round((hrr * .85) + parseInt(myRate));
- 
+      let mod_lower = Math.round((hrr * .4) + parseInt(myRate));
+      let vig_lower = Math.round((hrr * .7) + parseInt(myRate));
+      let vig_higher =Math.round((hrr * .85) + parseInt(myRate));
+
+
      if(!myAge || !myRate){
        return 'please enter your age and resting heart rate'
      }
@@ -31,12 +34,12 @@ class HeartRateApp extends React.Component{
 
       this.setState(()=>({
         age: myAge,
-        rate: my_rate,
-        max: max,
-        hrr: hrr,
-
-        lower: lower,
-        higher: higher,
+        rate: myRate,
+        max,
+        hrr,
+        mod_lower,
+        vig_lower,
+        vig_higher,
 
         message: 'Here are your recommended heart rate zones for exercising:'
 
@@ -47,7 +50,7 @@ class HeartRateApp extends React.Component{
       <div className="container">
       <Header />
       <GetZones handleCalculateHeartRateZones={this.handleCalculateHeartRateZones}/>
-      <DisplayZones age={this.state.age} rate={this.state.rate} lower={this.state.lower} higher={this.state.higher} max={this.state.max} hrr={this.state.hrr} message={this.state.message}/>
+      <DisplayZones age={this.state.age} rate={this.state.rate} mod_lower={this.state.mod_lower} vig_lower={this.state.vig_lower} vig_higher={this.state.vig_higher} max={this.state.max} hrr={this.state.hrr} message={this.state.message}/>
       <Footer />
       </div>
     )
