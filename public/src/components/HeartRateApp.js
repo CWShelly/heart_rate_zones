@@ -16,17 +16,12 @@ class HeartRateApp extends React.Component{
   }
     handleCalculateHeartRateZones  = (myAge, myRate)=>{
 
-      let x = 999;
       let my_rate = myRate;
       let max = 220 - myAge;
       let hrr = max - myRate;
-      let lower = (hrr * .7) + parseInt(myRate);
-      let higher =(hrr * .85) + parseInt(myRate);
-
-
-      console.log(hrr);
-
-
+      let lower = Math.round((hrr * .7) + parseInt(myRate));
+      let higher =Math.round((hrr * .85) + parseInt(myRate));
+ 
      if(!myAge || !myRate){
        return 'please enter your age and resting heart rate'
      }
