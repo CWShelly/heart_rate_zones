@@ -1,0 +1,26 @@
+.get-zone{
+  display: flex;
+  flex-direction: column;
+}
+
+.get-zone-error{
+  background: #c6299f;
+  color: white;
+  font-size: $medium;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.get-zone-input{
+  font-size: $large;
+  border: none;
+  border-bottom: .3rem solid darken(pink, 10%);
+  color: black;
+  flex-grow: 1;
+  text-align: right;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
