@@ -1,17 +1,18 @@
-.get-zone{
-  display: flex;
-  flex-direction: column;
-}
-
 .get-zone-error{
   background: #c6299f;
   color: white;
   font-size: $medium;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  margin: $medium 0;
+  padding: 0 $medium;
 }
+.get-zone{
+  display: flex;
+  flex-direction: column;
+  padding:$medium
+}
+
+
 .get-zone-input{
   font-size: $large;
   border: none;
@@ -20,7 +21,14 @@
   flex-grow: 1;
   text-align: right;
   font-weight: 300;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  margin-bottom: 0 0 $s 0;
+  padding: $s;
+}
+
+@media (min-width: $desktop-bp){
+
+.get-zone-input{
+  margin: 0 $s 0 0;
+  font-size: $xl;
+}
 }
