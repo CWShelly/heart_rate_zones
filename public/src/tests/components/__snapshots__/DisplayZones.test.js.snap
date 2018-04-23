@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly display DisplayZones page  1`] = `
+<div
+  className="displayContainer"
+>
+  <p
+    className="myZones-bigger"
+  />
+</div>
+`;
+
+exports[`should handle DisplayZones data when info is added 1`] = `
+<div
+  className="displayContainer"
+>
+  <p
+    className="myZones-bigger"
+  >
+    test message
+  </p>
+  <p
+    className="myZones"
+  >
+    <span
+      className="myZones-span"
+    >
+      Your age:
+    </span>
+     
+    44
+    . 
+    <span
+      className="myZones-span"
+    >
+      Your resting heart rate:
+    </span>
+     
+  </p>
+  <p
+    className="myZones"
+  >
+    <span
+      className="myZones-span"
+    >
+      For moderate intensity:
+    </span>
+     your recommended lower range: 
+    100
+    . Your recommended upper range: 
+  </p>
+  <p
+    className="myZones"
+  >
+     
+    <span
+      className="myZones-span"
+    >
+      Your max heart rate: 
+      176
+    </span>
+  </p>
+</div>
+`;
+
+exports[`should handle DisplayZones data when nothing is added 1`] = `
+<div
+  className="displayContainer"
+/>
+`;
