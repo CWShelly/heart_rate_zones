@@ -1,13 +1,13 @@
 
 .myZones{
   font-size: $medium;
-  color: $fuschia;
+  color: white;
   text-align: left;
 }
 
 .myZones-span{
   font-size: $medium;
-  color: $fuschia;
+  color: white;
   text-align: left;
   font-weight: bold;
   // text-decoration: underline;
@@ -15,7 +15,7 @@
 }
 .myZones-bigger{
   font-size: 2.22rem;
-  color: $fuschia;
+  color: white;
   text-align: center;
   text-decoration: underline;
 
@@ -26,7 +26,39 @@
   color: white;
   font-size: $medium;
   text-align: center;
- 
+
+}
 
 
+@media(min-width: $desktop-bp){
+
+  .myZones{
+    font-size: $xl;
+    color: white;
+    text-align: left;
+  }
+
+  .myZones-span{
+    font-size: $xl;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    // text-decoration: underline;
+
+  }
+  .myZones-bigger{
+    font-size: $xl;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+
+  }
+  .displayContainer{
+    border: 1px solid $fuschia;
+    color: white;
+    font-size: $xl;
+    text-align: center;
+    background: green;
+
+  }
 }
