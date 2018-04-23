@@ -2,7 +2,6 @@ import React from 'react';
 
 const DisplayZones = (props)=>(
 
-
   <div className="displayContainer">
   {props.message != '' && <p className="myZones-bigger">{props.message}</p>}
   {props.age > 0 && <p className="myZones"><span className="myZones-span">Your age:</span> {props.age}. <span className="myZones-span">Your resting heart rate:</span> {props.rate}</p>}
