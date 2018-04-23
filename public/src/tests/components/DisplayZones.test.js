@@ -20,5 +20,5 @@ test('should handle DisplayZones data when info is added', ()=>{
     const wrapper = shallow(<DisplayZones message={dummyInfo.message}
       age={dummyInfo.age} mod_lower={dummyInfo.mod_lower}
       vig_higher={dummyInfo.vig_higher} max={dummyInfo.max} />);
-      xpect(wrapper).toMatchSnapshot();
+      expect(wrapper).toMatchSnapshot();
 })
