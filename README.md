@@ -5,11 +5,11 @@ This is a simple application created using React v.16.0.0 to allow a user to fin
 
 ## To install:
 
-* yarn install
+* $yarn install
 
 ## To test:
 
-* yarn run test
+* $yarn run test
 
 ## To visit:
 
