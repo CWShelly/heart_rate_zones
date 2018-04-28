@@ -2,7 +2,7 @@
   "name": "heart_rate_zones",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "mead",
+  "author": "Shelly Yusuf",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
