@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import Footer from './Footer'
+ 
 import GetZones from './GetZones';
 import DisplayZones from './DisplayZones';
 
@@ -52,7 +52,7 @@ class HeartRateApp extends React.Component{
       <Header />
       <GetZones handleCalculateHeartRateZones={this.handleCalculateHeartRateZones}/>
       <DisplayZones age={this.state.age} rate={this.state.rate} mod_lower={this.state.mod_lower} vig_lower={this.state.vig_lower} vig_higher={this.state.vig_higher} max={this.state.max} hrr={this.state.hrr} message={this.state.message}/>
-   
+
       </div>
       </div>
     )

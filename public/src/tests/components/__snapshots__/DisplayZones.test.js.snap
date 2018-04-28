@@ -3,63 +3,62 @@
 exports[`should correctly display DisplayZones page  1`] = `
 <div
   className="displayContainer"
->
-  <p
-    className="myZones-bigger"
-  />
-</div>
+/>
 `;
 
 exports[`should handle DisplayZones data when info is added 1`] = `
 <div
   className="displayContainer"
 >
-  <p
-    className="myZones-bigger"
-  >
-    test message
-  </p>
-  <p
+  <div
     className="myZones"
   >
-    <span
-      className="myZones-span"
-    >
-      Your age:
-    </span>
+    <p>
+      <span
+        className="myZones-bold"
+      >
+        Your age:
+      </span>
+       
+      44
+      .
+    </p>
      
-    44
-    . 
     <span
-      className="myZones-span"
+      className="myZones-bold"
     >
       Your resting heart rate:
     </span>
      
-  </p>
-  <p
+     bpm.
+  </div>
+  <div
     className="myZones"
   >
-    <span
-      className="myZones-span"
+    <p
+      className="myZones-bold"
     >
       For moderate intensity:
-    </span>
-     your recommended lower range: 
+    </p>
+    Stay between 
     100
-    . Your recommended upper range: 
-  </p>
+     and 
+     bpm.
+  </div>
   <p
     className="myZones"
   >
      
     <span
-      className="myZones-span"
+      className="myZones-bold"
     >
-      Your max heart rate: 
-      176
+      Your max heart rate:
     </span>
+     
+    176
+     bpm.
   </p>
+  <Footer />
 </div>
 `;
 

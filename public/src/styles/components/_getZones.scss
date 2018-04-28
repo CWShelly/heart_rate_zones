@@ -9,7 +9,7 @@
 .get-zone{
   display: flex;
   flex-direction: column;
-  padding:$medium
+  // padding:$medium
 }
 
 
@@ -21,14 +21,21 @@
   flex-grow: 1;
   text-align: right;
   font-weight: 300;
-  margin-bottom: 0 0 $s 0;
+  margin-bottom: $medium;
   padding: $s;
 }
 
 @media (min-width: $desktop-bp){
 
-.get-zone-input{
-  margin: 0 $s 0 0;
-  font-size: $xl;
-}
+
+  .get-zone-input{
+    font-size: $large;
+    border: none;
+    border-bottom: .3rem solid darken(pink, 10%);
+    color: black;
+    flex-grow: 1;
+    text-align: right;
+    font-weight: 300;
+    padding: $s;
+  }
 }

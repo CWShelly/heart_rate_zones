@@ -1,24 +1,29 @@
 .footer{
-  position: absolute;
-  bottom: 0;
-
-  height: 10%;
-  background: $purple;
+  font-size: $large;
   color: white;
-  width: 60rem;
-  text-align: center;
-
+  text-align: left;
 }
 
 .footer a{
   color:white;
   text-decoration: none;
+    font-size: $large;
 }
 
 
 @media (min-width: $desktop-bp){
 
   .footer{
-    width: 100%;
+    font-size: $large;
+    color: white;
+    text-align: left;
   }
+
+  .footer a{
+    color:white;
+    text-decoration: none;
+    font-size: $large;
+  }
+
+
 }
