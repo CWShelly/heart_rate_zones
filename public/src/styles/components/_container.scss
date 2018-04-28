@@ -1,8 +1,8 @@
 .container{
-  max-width: 100%;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 0 $medium;
-  background: blue;
+  background: $fuschia;
 }
 
 
@@ -11,10 +11,9 @@
 @media (min-width: $desktop-bp){
 
   .container{
-    max-width: 80%;
-    // max-width: 60rem;
+   max-width: 60rem;
     margin: 0 auto;
     padding: 0 $medium;
-    background: red;
+    background: $fuschia;
   }
 }

@@ -5,6 +5,25 @@
   border: .3rem solid darken($purple, 20%);
   font-weight: 500;
   font-size: $large;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding:$medium;
+    margin-bottom: $medium;
+}
+
+
+
+
+@media (min-width: $desktop-bp){
+
+  .button{
+    background: $purple;
+    color: white;
+    border: none;
+    border: .3rem solid darken($purple, 20%);
+    font-weight: 500;
+    font-size: $large;
+
+      padding:$medium;
+  }
+
+
 }

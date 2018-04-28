@@ -1,31 +1,35 @@
 
 .myZones{
-  font-size: $medium;
+  font-size: $large;
   color: white;
   text-align: left;
 }
 
-.myZones-span{
-  font-size: $medium;
-  color: white;
+.myZones-bold{
+  font-size: $large;
+  color: black;
   text-align: left;
   font-weight: bold;
-  // text-decoration: underline;
 
 }
 .myZones-bigger{
   font-size: 2.22rem;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: underline;
 
 }
 
 .displayContainer{
-  border: 1px solid $fuschia;
+  // border: 1px solid white;
   color: white;
-  font-size: $medium;
+  font-size: $large;
   text-align: center;
+
+
+  padding-left: $large;
+  padding-right: $large;
+  padding-bottom: $large;
 
 }
 
@@ -37,28 +41,30 @@
     color: white;
     text-align: left;
   }
-
-  .myZones-span{
+  .myZones-bold{
     font-size: $xl;
-    color: white;
+    color: black;
     text-align: left;
     font-weight: bold;
-    // text-decoration: underline;
 
   }
   .myZones-bigger{
     font-size: $xl;
-    color: white;
+      color: black;
     text-align: center;
     text-decoration: underline;
 
   }
   .displayContainer{
-    border: 1px solid $fuschia;
-    color: white;
+    // border: 1px solid yellow;
+    color: black;
     font-size: $xl;
     text-align: center;
-    background: green;
+
+      padding-left: $s;
+      padding-right: $s;
+      padding-bottom: $s;
+
 
   }
 }

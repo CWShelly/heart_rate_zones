@@ -20,9 +20,6 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.4",
-    "enzyme": "3.0.0",
-    "enzyme-adapter-react-16": "1.0.0",
-    "enzyme-to-json": "3.0.1",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "jest": "20.0.4",
@@ -33,11 +30,17 @@
     "react-addons-shallow-compare": "15.6.0",
     "react-dom": "16.0.0",
     "react-modal": "2.2.2",
-    "react-test-renderer": "16.0.0",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "validator": "8.0.0",
     "webpack": "^3.1.0",
     "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "enzyme": "3.0.0",
+    "enzyme-adapter-react-16": "1.0.0",
+    "enzyme-to-json": "3.0.1",
+    "react-test-renderer": "16.0.0"
   }
 }
