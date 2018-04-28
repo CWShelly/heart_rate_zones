@@ -1,28 +1,40 @@
 .footer{
+  border-top: 1px solid white;
   font-size: $large;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 .footer a{
   color:white;
   text-decoration: none;
-    font-size: $large;
+  font-size: $large;
+}
+
+.footer-copy{
+  color:white;
+  font-size: $medium;
 }
 
 
 @media (min-width: $desktop-bp){
 
   .footer{
+    border-top: 1px solid white;
     font-size: $large;
     color: white;
-    text-align: left;
+    text-align: center;
   }
 
   .footer a{
     color:white;
     text-decoration: none;
     font-size: $large;
+  }
+
+  .footer-copy{
+    color:white;
+    font-size: $medium;
   }
 
 
