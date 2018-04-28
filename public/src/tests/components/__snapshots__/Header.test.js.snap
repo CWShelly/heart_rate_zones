@@ -5,7 +5,7 @@ exports[`should correctly render Header 1`] = `
   className="header"
 >
   <h2>
-    Heart Rate Zones Calculators
+    Heart Rate Zones Calculator
   </h2>
 </div>
 `;
