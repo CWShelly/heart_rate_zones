@@ -11,5 +11,10 @@ exports[`should correctly render Footer 1`] = `
       Source: Mayo Clinic
     </a>
   </p>
+  <p
+    className="footer-copy"
+  >
+     © Shelly Yusuf 2018.
+  </p>
 </div>
 `;
