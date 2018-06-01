@@ -11,6 +11,10 @@ This is a simple application created using React v.16.0.0 to allow a user to fin
 
 * $yarn run test
 
+## To run:
+
+* $yarn run start
+
 ## To visit:
 
  [Get your zones](https://heart-rate-zones-calculator.herokuapp.com/)
